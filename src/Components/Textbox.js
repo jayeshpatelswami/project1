@@ -44,11 +44,11 @@ const clear = () => {
   <textarea className="form-control" value={text} onChange={handalon} id="box" rows="6"></textarea>
 <div className="container  my-3">
 
-  <button className='btn btn-btn-pbtn btn-primary mx-3' onClick={handalup}>Convert to uppercase</button>
-  <button className='btn btn-btn-pbtn btn-primary mx-3' onClick={handallo}>Convert to Lowercase</button>
+  <button className='btn btn-btn-pbtn btn-primary mx-3 my-3' onClick={handalup}>Convert to uppercase</button>
+  <button className='btn btn-btn-pbtn btn-primary mx-3 my-3' onClick={handallo}>Convert to Lowercase</button>
   {/* <button className='btn btn-btn-pbtn btn-primary mx-3' onClick={uplo}>Convert to Capitalize text</button> */}
-  <button className='btn btn-btn-pbtn btn-primary mx-3' onClick={copy}>Copy text</button>
-  <button className='btn btn-btn-pbtn btn-primary mx-3' onClick={clear}>Clear</button>
+  <button className='btn btn-btn-pbtn btn-primary mx-3 my-3' onClick={copy}>Copy text</button>
+  <button className='btn btn-btn-pbtn btn-primary mx-3 my-3' onClick={clear}>Clear</button>
 </div>
 
 <div className="container">
